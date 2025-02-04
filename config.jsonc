@@ -27,10 +27,17 @@
         "pulseaudio"
     ],
 
-    "sway/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
-        "all-outputs": true,
-        "tooltip": false
+        "all-outputs": false,
+        "tooltip": true,
+        // "format": "{name} {icon}",
+        // "format-icons": {
+            // "active": "",
+            // "urgent": "",
+            // "active": "",
+            // "default": ""
+        // }
     },
 
     "tray": {
